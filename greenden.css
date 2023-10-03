@@ -1,0 +1,79 @@
+.grid{
+   background-color:#cbf3f0;
+}
+.row{
+   height:400px;
+}
+nav{
+    background-color:#cbf3f0;
+    border-bottom: solid grey 2px;
+    box-shadow: 10px 10px 10px rgb(84, 77, 77);
+}
+.pic{
+    margin-top: 30px;
+   float: right;
+    animation-name: sakthi;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+   }
+   @keyframes sakthi{
+    0%{
+    margin-right: 0;
+    }
+    100%{
+        margin-right: 100px;
+    }
+   }
+.pic2{
+  text-align: center;
+  margin-top: 20px;
+}
+.text{
+  text-align: center;
+  font-weight: 700;
+}
+.para{
+  text-align: center;
+  font-weight: 600;
+}
+.natural{
+  float: left;
+  margin-left:100px;
+}
+.plants{
+  float: right;
+  margin-right: 100px;
+}
+.product{
+  background-color: #cbf3f0;
+}
+.child{
+  float: left;
+margin-top: 100px;
+}
+.say{
+  background-color: #cbf3f0;
+  margin-top: 200px;
+  height: 400px;
+padding-left: 500px;
+padding-top: 100px;
+font-weight: 700;
+}
+.join{
+  margin-top: 100px;
+}
+.sub{
+  border: solid rgb(89, 85, 85) 2px;
+  height: 50px;
+  width: 1200px;
+}
+footer{
+  background-color: #cbf3f0;
+  height: 400px;
+  padding-left: 100px;
+  padding-top: 100px;
+  margin-top: 30px;
+}
+
+
